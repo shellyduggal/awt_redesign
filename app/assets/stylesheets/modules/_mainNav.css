@@ -1,0 +1,18 @@
+.mainNav {
+	text-transform: uppercase;
+
+	&__list {
+		float: right;
+		list-style-type: none;
+		padding: 20px 5px 5px;
+		margin: 0;
+	}
+
+	&__item {
+		display: inline-block;
+		color: $darkPurple;
+		font-size: 1.25rem;
+		padding: 0 5px;
+		margin: 5px 12px;
+	}
+}

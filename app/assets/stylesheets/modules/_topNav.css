@@ -1,0 +1,28 @@
+.topNav {
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+
+	&__logo {
+		padding: 10px;
+		max-height: 100px;
+	}
+
+	&__links {
+		list-style-type: none;
+		float: right;
+		margin: 0;
+		padding: 0;	
+	}
+
+	&__item {
+		display: inline-block;
+		float: left;
+	}
+
+	&__social {
+		color: $darkPurple;
+		font-size: 1.75rem;
+		margin: 10px;
+	}
+}

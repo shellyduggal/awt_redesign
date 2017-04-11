@@ -23,8 +23,8 @@ gulp.task('deleteDistFolder', ['icons'], function() {
 gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
 	var pathsToCopy = [
 		'./app/**/*',
-		'!./app/index.html',
-		'!./app/assets/images/**',
+		'./app/index.html',
+		'./app/assets/images/**',
 		'!./app/assets/stylesheets/',
 		'!./app/assets/stylesheets/**',
 		'!./app/assets/scripts/**',
@@ -41,7 +41,7 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function() {
 });
 
 gulp.task('optimizeImages', ['deleteDistFolder'], function() {
-	return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons', '!./app/assets/images/icons/**/*'])
+	return gulp.src('./app/assets/images/**/*')
 		.pipe(imagemin({
 			progressive: true, //optimize jpg images
 			interlaced: true, //optimize gif images

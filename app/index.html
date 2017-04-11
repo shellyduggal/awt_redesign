@@ -6,6 +6,8 @@
   <title>AWT Redesign</title>
   <meta name="keywords" content="women, technology">
 
+  <script src="https://use.fontawesome.com/7126816016.js"></script>
+
   <!-- build:css assets/styles/styles.css -->
     <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
   <!-- endbuild -->
@@ -16,28 +18,35 @@
 <body>
 <header>
   <div class="topNav">
-    <img class="topNav--logo" src="assets/images/AWT_CorrectLogo.jpg">
-    <a class="btn" href="views/member.html">
-      Join Us
-    </a>
-    <a class="btn" href="views/donate.html">
-      Contribute
-    </a>
-  </div>
+    <img class="topNav__logo" src="assets/images/icons/AWT_CorrectLogo.png">
+    <ul class="topNav__links">
+      <li class="topNav__item"><a href="#"><i class="fa fa-facebook topNav__social"></i></a></li>
+      <li class="topNav__item"><a href="#"><i class="fa fa-twitter topNav__social"></i></a></li>
+      <li class="topNav__item"><a href="#"><i class="fa fa-linkedin topNav__social"></i></a></li>
+      <li class="topNav__item"><a class="btn btn--light topNav__btn" href="views/member.html">
+        Join Us
+      </a></li>
+      <li class="topNav__item"><a class="btn btn--dark topNav__btn" href="views/donate.html">
+        Contribute
+      </a></li>
+    </ul> <!-- topNav__links -->
+  </div> <!--close topNav-->
+
   <div class="mainNav">
     <ul class="mainNav__list">
-      <li class="mainNav__item">Home</li>
-      <li class="mainNav__item">About</li>
-      <li class="mainNav__item">Community</li>
-      <li class="mainNav__item">Membership</li>
-      <li class="mainNav__item">Donate</li>
-      <li class="mainNav__item">Calendar</li>
-    </ul>
-  </div>
+      <hr>
+      <li class="mainNav__item"><a href="#">Home</a></li>
+      <li class="mainNav__item"><a href="#">About</a></li>
+      <li class="mainNav__item"><a href="#">Community</a></li>
+      <li class="mainNav__item"><a href="#">Membership</a></li>
+      <li class="mainNav__item"><a href="#">Donate</a></li>
+      <li class="mainNav__item"><a href="#">Calendar</a></li>
+    </ul><!--close mainNav__list-->
+  </div><!--close mainNav-->
 </header>
 
 <div class="banner">
-  <img class="banner__image" src="assets/images/woman_laptop.jpg">
+  <img class="banner__image" src="assets/images/pennybacker.jpg">
   <div class="banner__title">
     Austin Women in Technology
   </div>

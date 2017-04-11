@@ -6,7 +6,6 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
-	display: block;
 }
 
 * {
@@ -14,5 +13,7 @@ img {
 }
 
 a {
-	color: $mainText;
+	color: $lightPurple;
+	text-decoration: none;
+	display: block;
 }
