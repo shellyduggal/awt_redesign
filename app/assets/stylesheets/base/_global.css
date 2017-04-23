@@ -17,3 +17,10 @@ a {
 	text-decoration: none;
 	display: block;
 }
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}

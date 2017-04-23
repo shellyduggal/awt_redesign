@@ -1,10 +1,13 @@
 .mainNav {
 	text-transform: uppercase;
+	background-color: rgb(240, 240, 240);
+
+	@mixin clearFix;
 
 	&__list {
 		float: right;
 		list-style-type: none;
-		padding: 20px 5px 5px;
+		padding: 10px 5px 5px;
 		margin: 0;
 	}
 
@@ -15,4 +18,5 @@
 		padding: 0 5px;
 		margin: 5px 12px;
 	}
+
 }
