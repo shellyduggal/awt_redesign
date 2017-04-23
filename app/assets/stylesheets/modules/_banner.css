@@ -1,0 +1,36 @@
+.banner {
+	@mixin clearFix;
+	position: relative;
+	top: 125px;
+	padding: 0;
+
+	&__image {
+		display: block;
+	}
+
+	&__content {
+		color: #eee;
+		font-family: 'Oswald', sans-serif;
+		text-shadow: 1px 1px 1px #aaa;
+		text-align: right;
+		font-weight: 300;
+		letter-spacing: 1.3px;
+		position: absolute;
+		top: 60%;
+		right: 0;
+		padding: 15px 15px 15px 150px;
+		background-color: rgba(125,125,125,0.6);
+
+		&--title {
+			margin: 3px;
+			padding: 0;
+			font-size: 4.5rem;
+		}
+
+		&--tagline {
+			margin: 0;
+			padding: 0;
+			font-size: 2rem;
+		}
+	}
+}

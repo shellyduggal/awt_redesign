@@ -23,4 +23,5 @@ header {
 	top: 0;
 	width: 100%;
 	border-bottom: 1px solid #ccc;
+	z-index: 12;
 }
